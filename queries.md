@@ -11,13 +11,13 @@
 
 ```sql
 SELECT count(distinct country_name) FROM `patents-public-data.worldbank_wdi.wdi_2016` 
-'''
+```
 
 ## Min and max year 
 
 ```sql
 SELECT min(year) as min_year , max(year ) as max_year FROM `patents-public-data.worldbank_wdi.wdi_2016` 
-'''
+```
 
 * average min and max surface area of all countries and also each country in the dataset 
 
