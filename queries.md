@@ -9,13 +9,13 @@
 
 ## no. of countires 
 
-'''sql
+```sql
 SELECT count(distinct country_name) FROM `patents-public-data.worldbank_wdi.wdi_2016` 
 '''
 
 ## Min and max year 
 
-'''sql
+```sql
 SELECT min(year) as min_year , max(year ) as max_year FROM `patents-public-data.worldbank_wdi.wdi_2016` 
 '''
 
